@@ -1,7 +1,4 @@
-/*
- * live2d-widget v3.0.2
- * https://github.com/Lucas-Tianyu/live2d-widget
- */
+
 
 function loadWidget(config) {
 	let {
@@ -60,8 +57,8 @@ function loadWidget(config) {
 
 	(function registerEventListener() {
 		document.querySelector("#waifu-tool .fa-comment").addEventListener("click", showHitokoto);
-		document.querySelector("#waifu-tool .icon-bilibili").addEventListener("click", () => {
-			open("https://space.bilibili.com/34615080"); //修改为你的B站地址
+		document.querySelector("#waifu-tool .fa-bilibili").addEventListener("click", () => {
+			open("https://space.bilibili.com/3493078591605515"); //修改为你的B站地址
 		});
 		/**
 		document.querySelector("#waifu-tool .fa-paper-plane").addEventListener("click", () => {
