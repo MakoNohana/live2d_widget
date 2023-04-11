@@ -80,7 +80,7 @@ function loadWidget(config) {
 			Live2D.captureFrame = true;
 		});
 		document.querySelector("#waifu-tool .fa-info-circle").addEventListener("click", () => {
-			open("https://github.com/Lucas-Tianyu/live2d-widget");
+			open("https://github.com/LearningOS/rCore-Tutorial-Guide-2023S");
 		});
 		document.querySelector("#waifu-tool .fa-times").addEventListener("click", () => {
 			localStorage.setItem("waifu-display", Date.now());
